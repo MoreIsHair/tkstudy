@@ -1,0 +1,26 @@
+# 开发测试
+server:
+  port: 9529
+  
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://192.168.0.221:3306/tyaids_macro?mysqluseUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+      username: pengyy
+      password: pengyy0920
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+#主键生成策略
+idworker:
+  wid: 1
+  dcid: 1
+
+#缓存文件
+ehcache:
+  dbfile: E:/ai_desgin_cloud_macro/cache
+#是否开起swagger
+swagger:
+  enabled: true
+#存放文件
+files:
+  uploadFiles: E:/ai_desgin_cloud_macro/files/

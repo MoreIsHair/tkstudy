@@ -1,0 +1,24 @@
+#生产部署使用
+server:
+  port: 9570
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://192.168.0.221:3306/tyaids_macro_prod?mysqluseUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+      username: pengyy
+      password: pengyy0920
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+#主键生成策略
+idworker:
+  wid: 1
+  dcid: 1 
+  
+#缓存文件
+ehcache:
+  dbfile: E:/ai_desgin_cloud_macro_prod/cache
+#是否开起swagger
+swagger:
+  enabled: false
+files:
+  uploadFiles: E:/ai_desgin_cloud_macro_prod/files/
