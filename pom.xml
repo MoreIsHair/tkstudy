@@ -25,7 +25,7 @@
         <mapper-spring-boot-starter.version>2.1.5</mapper-spring-boot-starter.version>
         <pagehelper-spring-boot-starter.version>1.2.12</pagehelper-spring-boot-starter.version>
         <shiro-spring-boot-starter.version>1.4.0</shiro-spring-boot-starter.version>
-        <mysql-connector-java.version>8.0.15</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.16</mysql-connector-java.version>
         <hutool.version>4.1.17</hutool.version>
         <guava.version>28.0-jre</guava.version>
         <fastjson.version>1.2.58</fastjson.version>
