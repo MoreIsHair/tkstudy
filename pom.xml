@@ -27,7 +27,7 @@
         <shiro-spring-boot-starter.version>1.4.0</shiro-spring-boot-starter.version>
         <mysql-connector-java.version>8.0.15</mysql-connector-java.version>
         <hutool.version>4.1.17</hutool.version>
-        <guava.version>28.0-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <fastjson.version>1.2.58</fastjson.version>
         <ehcache.version>3.8.0</ehcache.version>
         <lombok.version>1.18.8</lombok.version>
